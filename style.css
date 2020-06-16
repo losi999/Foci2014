@@ -1,0 +1,182 @@
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: #669933;
+}
+
+.wrapper {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:red;*/
+}
+
+
+li {
+    list-style:none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px;
+}
+
+.menu {
+    list-style-type: none;
+    width: 880px;
+    margin: auto;
+    padding: 10px;
+    height: 40px;	
+}
+.menu a {
+    text-decoration: none;
+    background-color: #3399FF;
+    color: white;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.menu li {
+    width: 220px;
+    float: left;	
+    border-top: 6px solid;
+    border-right: 6px solid;
+    border-left: 6px solid;
+}
+.menu a:hover {
+    background-color: #33FFFF;
+    color: #000000;
+}
+.menu #akt {
+    background-color: #669933;
+}
+.menu font {
+    size: 3pt;
+    color: #333333;
+}
+
+.loggedin {
+    color: white;
+    margin-top:-50px;
+    float:right;
+    margin-right:10px;
+}
+
+.main {
+    margin-top:50px;
+    width:900px;
+    /*height:600px;*/
+    /*background-color:yellow;*/
+    text-align:left;
+}
+
+table, td, th {
+    border-style:solid;
+    border-width:1px;
+}
+
+.eredmeny {
+    display:none;
+}
+
+.eredmeny img, .tipp img, .admin_edit img, .admin_fix img, .uj img, .remove img {
+    width:25px;
+    height:25px;
+}
+
+.tipp {
+    /*display:none;*/
+}
+
+.col1{
+    width:300px;
+}
+
+.col2 {
+    width:100px;
+}
+
+#mentes {
+    display:none;
+}
+
+.meccs {
+    /*text-align:left;*/
+}
+
+.tippek {
+    display:none;
+}
+
+.admin_edit {
+    display:none;
+}
+
+#uj_sor {
+    display:none;    
+}
+
+.header {
+    font-weight: bold;
+    margin-bottom:10px
+}
+
+.sor {
+    height: 25px;
+}
+
+.col, .h_col {
+    float:left;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.h_col {
+    text-align: center;
+}
+
+.col_1 {
+    /*background-color: red;*/
+    width: 400px;
+    font-size:16px;
+    line-height: 25px;
+}
+
+.col_2 {
+    /*background-color: yellow;*/
+    width: 150px;
+    font-size:16px;
+    line-height: 25px;
+}
+
+.col_3 {
+    /*background-color: blue;*/
+    width: 100px;
+    font-size:16px;
+    line-height: 25px;
+}
+
+.col_4 {
+    /*background-color: pink;*/
+    width: 25px;
+}
+
+.col_5 {
+    /*background-color: white;*/
+    width: 25px;
+}
+
+.col_6 {
+    /*background-color: grey;*/
+    width: 25px;
+}
+
+#tabla {
+
+}
+
+#mentes {
+    text-align: left;
+}
